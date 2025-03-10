@@ -2,7 +2,7 @@ import { formatTime } from "./formatTime";
 import useTimer from "./useTimer";
 
 function App() {
-  const { time, startTimer, stopTimer, resetTimer, active } = useTimer(0);
+  const { time, startTimer, stopTimer, resetTimer, active } = useTimer(0); // => đây là 1 custom hook
 
   return (
     <div className="App container">

@@ -36,4 +36,4 @@ const useTimer = (ini = 0) => {
 export default useTimer;
 
 
-// dùng use ref ở đây để có thể chẹkc 
+// dùng use ref ở đây để refInterval k bị reset lại mỗi khi state thay đổi
